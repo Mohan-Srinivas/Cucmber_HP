@@ -1,0 +1,73 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Google search Scenario",
+        "description": "",
+        "id": "this-is-to-check-google-search;google-search-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7372404101,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is entering google.co.in",
+            "match": {
+              "location": "openGoogleStepDefinitions.user_is_entering_google_co_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93146100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is type the Search term as \"Thor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Thor",
+                  "offset": 33
+                }
+              ],
+              "location": "openGoogleStepDefinitions.user_is_type_the_Search_term_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3438187500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enters return key",
+            "match": {
+              "location": "openGoogleStepDefinitions.enters_return_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user should see the Search Results",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is to check google Search",
+    "description": "",
+    "id": "this-is-to-check-google-search",
+    "keyword": "Feature",
+    "uri": "featureFiles/openGoogle.feature"
+  }
+]
